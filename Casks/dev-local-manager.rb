@@ -1,6 +1,6 @@
 cask "dev-local-manager" do
-  version "0.0.0-beta"
-  sha256 "533ffdfbb1462552f9f469a9f827abc41ef6dd9dcf01a335d3f93bc87f063750"
+  version "0.0.1-beta"
+  sha256 "674463848a527ec12e916decbf4e97d831921fea15cf5fb06c2d63997c358a86"
 
   url "https://github.com/laidasan/dev-local-manager/releases/download/v#{version}/DevLocalManager.dmg"
   name "DevLocalManager"
