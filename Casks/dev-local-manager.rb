@@ -8,4 +8,9 @@ cask "dev-local-manager" do
   homepage "https://github.com/laidasan/dev-local-manager"
 
   app "DevLocalManager.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/DevLocalManager.app"]
+  end
 end
